@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+#login-form, #quiz-area {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.error { color: red; }
