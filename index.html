@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secure SHA256 Login Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-form">
+  <h2>Login</h2>
+
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+
+  <button onclick="login()">Login</button>
+  <p id="login-error" class="error"></p>
+</div>
+
+<div id="quiz-area" style="display:none;">
+  <h2>Welcome to Quiz</h2>
+  <div id="question"></div>
+  <div id="options"></div>
+  <button onclick="nextQuestion()">Next</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
